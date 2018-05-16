@@ -5,12 +5,16 @@ We are using the RNASeq-nf (https://github.com/nextflow-io/rnaseq-nf) pipeline a
 
 ##Diagram##
 After identify the elements and the interactions, it will be a fisrt approach for us case.
-![Pipeline Diagram](https://github.com/edgano/researchObject-Nextflow/images/RNASeq-nf.jpg)
+
+![Pipeline Diagram](https://github.com/edgano/researchObject-Nextflow/blob/master/images/RNASeq-nf.jpg)
+
 XML: https://drive.google.com/file/d/1EMhjxsD18PdyhmtK1ZxLg_8wZ1z3sWEe/view?usp=sharing
 
 ##Files Structure##
 We believe the folder/file structure has to look like this:
-![File Structure](https://github.com/edgano/researchObject-Nextflow/images/fileStructure.png)
+
+![File Structure](https://github.com/edgano/researchObject-Nextflow/blob/master/images/fileStructure.png)
+
 
 Being the content of the files as follow:
 
