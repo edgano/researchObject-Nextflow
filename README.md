@@ -28,3 +28,15 @@ Being the content of the files as follow:
     * nextflow.config
   * mimetype
   * visualitation.png -> pipeline graph
+
+To implement the PROV into NF, we are using ProvToolBox http://lucmoreau.github.io/ProvToolbox/
+
+# Steps
+
+- [x] Files Structure Moockup
+- [x] Identify elements (Activity/Entity)
+- [ ] Input/Output NF development
+- [ ] Get critical data -> author, container hash
+- [ ] Get container's software version
+- [ ] Automatic relation identification
+- [ ] Generate RO Object
