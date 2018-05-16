@@ -1,16 +1,16 @@
-# researchObject-Nextflow
+# ResearchObject-Nextflow
 Project to show the strutcture and the steps of the implementation of the esearchObject ito Nextflow.
 
 We are using the RNASeq-nf (https://github.com/nextflow-io/rnaseq-nf) pipeline as a example to identify the elements and the structure of the RO.
 
-##Diagram##
+## Diagram
 After identify the elements and the interactions, it will be a fisrt approach for us case.
 
 ![Pipeline Diagram](https://github.com/edgano/researchObject-Nextflow/blob/master/images/RNASeq-nf.jpg)
 
 XML: https://drive.google.com/file/d/1EMhjxsD18PdyhmtK1ZxLg_8wZ1z3sWEe/view?usp=sharing
 
-##Files Structure##
+## Files Structure
 We believe the folder/file structure has to look like this:
 
 ![File Structure](https://github.com/edgano/researchObject-Nextflow/blob/master/images/fileStructure.png)
