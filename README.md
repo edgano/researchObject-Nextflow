@@ -29,7 +29,24 @@ Being the content of the files as follow:
   * mimetype
   * visualitation.png -> pipeline graph
 
-To implement the PROV into NF, we are using ProvToolBox http://lucmoreau.github.io/ProvToolbox/
+## Input/Output code
+The structure of the I/O is the following:
+
+They will be entities ![Entity](https://github.com/edgano/researchObject-Nextflow/blob/master/images/entity.jpg)
+
+```
+for (element in inputList){
+    Path path = Paths.get(element);
+    def element_name = path.getFileName()
+    
+    Entity input_element = pFactory.newEntity(qn(element_name.toString()))
+    //asume it is a file
+    input_element.setValue(pFactory.newValue("file",pFactory.getName().PROV_TYPE));
+    input_element.setValue(pFactory.newValue("${element_name}", pFactory.getName().PROV_VALUE))
+}
+```
+
+To implement the PROV into NF, we are using Prov-DM and ProvToolBox http://lucmoreau.github.io/ProvToolbox/
 
 # Steps
 
