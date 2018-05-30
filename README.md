@@ -45,6 +45,20 @@ for (element in inputList){
     input_element.setValue(pFactory.newValue("${element_name}", pFactory.getName().PROV_VALUE))
 }
 ```
+The definition of an **Entity** allow us to have:
+* ID : ```NF_prov:{http://www.Workflow_REPO.org}<FILE_NAME>```
+* Properties:
+  * other: Interface for PROV objects that have non-PROV attributes -> _my idea is to have extra info here_
+  * value: Direct representation of an entity ```<value=foo;type=prov:{http://www.w3.org/ns/prov#}foo>```
+  * kind: ```PROV_ENTITY```
+  * type: Provides further typing information for any construct with an optional set of attribute-value pairs (file,URI,int...) 
+  ```
+  value=fooURI
+  type='xsd:{http://www.w3.org/2001/XMLSchema#}anyURI
+  ```
+  * class: ```class org.openprovenance.prov.xml.Entity```
+  * label: Provides a human-readable representation, and we can have has many labels as we want.
+  * location: A location can be an identifiable geographic place (ISO 19112), but it can also be a non-geographic place such as a directory, row, or column **?PATH??**
 
 To implement the PROV into NF, we are using Prov-DM and ProvToolBox http://lucmoreau.github.io/ProvToolbox/
 
