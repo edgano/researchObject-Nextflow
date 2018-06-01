@@ -72,7 +72,7 @@ Being the main relations between the input/output files and the processes.
 When a process consume a file, it generates a **used** relationship. And when the process makes a file it is generated a **wasGeneratedBy** relation between the process and the output file.
 
 ## Dummy Real Example
-
+Full version of the file can be found here: https://github.com/edgano/researchObject-Nextflow/blob/master/docs/RnaToyPROV.json
 ```
 "wasGeneratedBy": {
     "NF:generatedBy_1_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2": {
