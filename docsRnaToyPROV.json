@@ -1,0 +1,390 @@
+{
+  "wasGeneratedBy": {
+    "NF:generatedBy_1_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_1"
+    },
+    "NF:generatedBy_4_/home/edgar/CBCRG/nextflow/work/0f/c188d4d568b1c49d7b510f36598f48/transcript_ggal_liver.gtf": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/0f/c188d4d568b1c49d7b510f36598f48/transcript_ggal_liver.gtf",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_4"
+    },
+    "NF:generatedBy_1_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.1.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.1.bt2",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_1"
+    },
+    "NF:generatedBy_1_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.2.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.2.bt2",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_1"
+    },
+    "NF:generatedBy_1_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.4.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.4.bt2",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_1"
+    },
+    "NF:generatedBy_3_/home/edgar/CBCRG/nextflow/work/82/c0f6384f9fd7069b191d4f9836348d/accepted_hits.bam": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/82/c0f6384f9fd7069b191d4f9836348d/accepted_hits.bam",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:generatedBy_5_/home/edgar/CBCRG/nextflow/work/31/131dc6462988e713e89866d89ffc73/transcript_ggal_gut.gtf": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/31/131dc6462988e713e89866d89ffc73/transcript_ggal_gut.gtf",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_5"
+    },
+    "NF:generatedBy_1_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.2.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.2.bt2",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_1"
+    },
+    "NF:generatedBy_1_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.3.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.3.bt2",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_1"
+    },
+    "NF:generatedBy_2_/home/edgar/CBCRG/nextflow/work/18/8fe60349af64af3d0ead08a6aee6f9/accepted_hits.bam": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/18/8fe60349af64af3d0ead08a6aee6f9/accepted_hits.bam",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_2"
+    }
+  },
+  "activity": {
+    "NF:activity_1": {
+      "prov:type": {
+        "$": "ActivityType",
+        "type": "NF:process"
+      },
+      "prov:label": "buildIndex (ggal_1_48850000_49020000.Ggal71.500bpflank)"
+    },
+    "NF:activity_5": {
+      "prov:type": {
+        "$": "ActivityType",
+        "type": "NF:process"
+      },
+      "prov:label": "makeTranscript (ggal_gut)"
+    },
+    "NF:activity_4": {
+      "prov:type": {
+        "$": "ActivityType",
+        "type": "NF:process"
+      },
+      "prov:label": "makeTranscript (ggal_liver)"
+    },
+    "NF:activity_3": {
+      "prov:type": {
+        "$": "ActivityType",
+        "type": "NF:process"
+      },
+      "prov:label": "mapping (ggal_liver)"
+    },
+    "NF:activity_2": {
+      "prov:type": {
+        "$": "ActivityType",
+        "type": "NF:process"
+      },
+      "prov:label": "mapping (ggal_gut)"
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "NF": "prov"
+  },
+  "used": {
+    "NF:used_3_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_liver_1.fq": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_liver_1.fq",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_2_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.4.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.4.bt2",
+      "prov:activity": "NF:activity_2"
+    },
+    "NF:used_4_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff",
+      "prov:activity": "NF:activity_4"
+    },
+    "NF:used_2_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.1.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.1.bt2",
+      "prov:activity": "NF:activity_2"
+    },
+    "NF:used_5_/home/edgar/CBCRG/nextflow/work/18/8fe60349af64af3d0ead08a6aee6f9/accepted_hits.bam": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/18/8fe60349af64af3d0ead08a6aee6f9/accepted_hits.bam",
+      "prov:activity": "NF:activity_5"
+    },
+    "NF:used_3_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_2_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.3.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.3.bt2",
+      "prov:activity": "NF:activity_2"
+    },
+    "NF:used_3_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.3.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.3.bt2",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_2_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff",
+      "prov:activity": "NF:activity_2"
+    },
+    "NF:used_1_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa",
+      "prov:activity": "NF:activity_1"
+    },
+    "NF:used_3_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.1.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.1.bt2",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_2_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.2.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.2.bt2",
+      "prov:activity": "NF:activity_2"
+    },
+    "NF:used_3_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.4.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.4.bt2",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_2_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_gut_2.fq": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_gut_2.fq",
+      "prov:activity": "NF:activity_2"
+    },
+    "NF:used_2_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa",
+      "prov:activity": "NF:activity_2"
+    },
+    "NF:used_3_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_liver_2.fq": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_liver_2.fq",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_3_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_2_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2",
+      "prov:activity": "NF:activity_2"
+    },
+    "NF:used_4_/home/edgar/CBCRG/nextflow/work/82/c0f6384f9fd7069b191d4f9836348d/accepted_hits.bam": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/82/c0f6384f9fd7069b191d4f9836348d/accepted_hits.bam",
+      "prov:activity": "NF:activity_4"
+    },
+    "NF:used_3_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.2.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.2.bt2",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_3_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_2_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.2.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.2.bt2",
+      "prov:activity": "NF:activity_2"
+    },
+    "NF:used_3_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.2.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.2.bt2",
+      "prov:activity": "NF:activity_3"
+    },
+    "NF:used_5_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff",
+      "prov:activity": "NF:activity_5"
+    },
+    "NF:used_2_/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_gut_1.fq": {
+      "prov:entity": "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_gut_1.fq",
+      "prov:activity": "NF:activity_2"
+    }
+  },
+  "entity": {
+    "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_liver_2.fq": {
+      "prov:value": {
+        "$": "ggal_liver_2.fq",
+        "type": "prov:value"
+      }
+    },
+    "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff": {
+      "prov:value": {
+        "$": "ggal_1_48850000_49020000.bed.gff",
+        "type": "prov:value"
+      }
+    },
+    "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_gut_2.fq": {
+      "prov:value": {
+        "$": "ggal_gut_2.fq",
+        "type": "prov:value"
+      }
+    },
+    "NF:/home/edgar/CBCRG/nextflow/work/82/c0f6384f9fd7069b191d4f9836348d/accepted_hits.bam": [
+      {
+        "prov:value": {
+          "$": "accepted_hits.bam",
+          "type": "prov:value"
+        }
+      },
+      {
+        "prov:value": {
+          "$": "accepted_hits.bam",
+          "type": "prov:value"
+        }
+      }
+    ],
+    "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.2.bt2": [
+      {
+        "prov:value": {
+          "$": "genome.index.rev.2.bt2",
+          "type": "prov:value"
+        }
+      },
+      {
+        "prov:value": {
+          "$": "genome.index.rev.2.bt2",
+          "type": "prov:value"
+        }
+      }
+    ],
+    "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.3.bt2": [
+      {
+        "prov:value": {
+          "$": "genome.index.3.bt2",
+          "type": "prov:value"
+        }
+      },
+      {
+        "prov:value": {
+          "$": "genome.index.3.bt2",
+          "type": "prov:value"
+        }
+      }
+    ],
+    "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2": [
+      {
+        "prov:value": {
+          "$": "genome.index.1.bt2",
+          "type": "prov:value"
+        }
+      },
+      {
+        "prov:value": {
+          "$": "genome.index.1.bt2",
+          "type": "prov:value"
+        }
+      }
+    ],
+    "NF:/home/edgar/CBCRG/nextflow/work/31/131dc6462988e713e89866d89ffc73/transcript_ggal_gut.gtf": {
+      "prov:value": {
+        "$": "transcript_ggal_gut.gtf",
+        "type": "prov:value"
+      }
+    },
+    "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.4.bt2": [
+      {
+        "prov:value": {
+          "$": "genome.index.4.bt2",
+          "type": "prov:value"
+        }
+      },
+      {
+        "prov:value": {
+          "$": "genome.index.4.bt2",
+          "type": "prov:value"
+        }
+      }
+    ],
+    "NF:/home/edgar/CBCRG/nextflow/work/18/8fe60349af64af3d0ead08a6aee6f9/accepted_hits.bam": [
+      {
+        "prov:value": {
+          "$": "accepted_hits.bam",
+          "type": "prov:value"
+        }
+      },
+      {
+        "prov:value": {
+          "$": "accepted_hits.bam",
+          "type": "prov:value"
+        }
+      }
+    ],
+    "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.rev.1.bt2": [
+      {
+        "prov:value": {
+          "$": "genome.index.rev.1.bt2",
+          "type": "prov:value"
+        }
+      },
+      {
+        "prov:value": {
+          "$": "genome.index.rev.1.bt2",
+          "type": "prov:value"
+        }
+      }
+    ],
+    "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_gut_1.fq": {
+      "prov:value": {
+        "$": "ggal_gut_1.fq",
+        "type": "prov:value"
+      }
+    },
+    "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa": {
+      "prov:value": {
+        "$": "ggal_1_48850000_49020000.Ggal71.500bpflank.fa",
+        "type": "prov:value"
+      }
+    },
+    "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.2.bt2": [
+      {
+        "prov:value": {
+          "$": "genome.index.2.bt2",
+          "type": "prov:value"
+        }
+      },
+      {
+        "prov:value": {
+          "$": "genome.index.2.bt2",
+          "type": "prov:value"
+        }
+      }
+    ],
+    "NF:/home/edgar/CBCRG/nextflow/work/0f/c188d4d568b1c49d7b510f36598f48/transcript_ggal_liver.gtf": {
+      "prov:value": {
+        "$": "transcript_ggal_liver.gtf",
+        "type": "prov:value"
+      }
+    },
+    "NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_liver_1.fq": {
+      "prov:value": {
+        "$": "ggal_liver_1.fq",
+        "type": "prov:value"
+      }
+    }
+  }
+}
