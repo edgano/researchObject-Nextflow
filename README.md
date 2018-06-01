@@ -64,8 +64,6 @@ The definition of this element allow us to capture:
 * Label: ```<task_name>``` being able to identify with activity is part of wich process. (make it more readable for humans)
 
 *Example* ```activity(NF:activity_3,-,-,[prov:type = "ActivityType" %% NF:process, prov:label = "mapping (ggal_liver)"])```
-### TODO
-convert time (start/End) to include in ```getStartTime()``` and ```getEndTime()```
 
 Another task done is the **Used** and **wasGeneratedBy** relations.
 Being the main relations between the input/output files and the processes.
@@ -124,6 +122,9 @@ Full version of the file can be found here: https://github.com/edgano/researchOb
 ```
 Meaning that the entity(file) ```NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2``` was created by the activity ```NF:activity_1```, and we knwo that it is the process ```buildIndex (ggal_1_48850000_49020000.Ggal71.500bpflank)```.
 Then we can see how _activity_1_ has consumed the entity(file) ```NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa```
+
+### TODO Activity Object
+convert time (start/End) to include in ```getStartTime()``` and ```getEndTime()```
 
 ## Next Steps
 Next steps will be to start saving the file with the structure we have defined before, generate the sha for the files. Then we will clean the code and use ```Enum``` for the PROV-Types.
