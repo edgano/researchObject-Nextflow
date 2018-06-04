@@ -124,10 +124,10 @@ Meaning that the entity(file) ```NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f0
 Then we can see how _activity_1_ has consumed the entity(file) ```NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa```
 
 ### TODO Activity Object
-convert time (start/End) to include in ```getStartTime()``` and ```getEndTime()```
+~~convert time (start/End) to include in ```getStartTime()``` and ```getEndTime()```~~
 
 ## Next Steps
-Next steps will be to start saving the file with the structure we have defined before, generate the sha for the files. Then we will clean the code and use ```Enum``` for the PROV-Types.
+Next steps will be to start saving the file with the structure we have defined before, ~~generate the sha for the files. Then we will clean the code and use ```Enum``` for the PROV-Types.~~
 
 After that, we will move to the next milestone, capture author information, container hash, ...
 
@@ -137,8 +137,8 @@ To implement the PROV into NF, we are using Prov-DM and [ProvToolBox](http://luc
 
 - [x] Files Structure Moockup
 - [x] Identify elements (Activity/Entity)
-- [ ] Input/Output NF -- **under development**
-- [ ] Get critical data -> author, container hash
+- [x] Input/Output NF 
+- [ ] Get critical data -> author, container hash -- **under development**
 - [ ] Get container's software version
 - [ ] Automatic relation identification
 - [ ] Generate RO Object
