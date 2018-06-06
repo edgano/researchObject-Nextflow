@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='ASCII'?>
+<prov:document xmlns:cwlprov="https://w3id.org/cwl/prov#" xmlns:data="urn:hash::sha1:" xmlns:input="arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/primary-job.json#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:researchobject="arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/" xmlns:run="urn:uuid:" xmlns:sha256="nih:sha-256;" xmlns:wf="arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#" xmlns:wfdesc="http://purl.org/wf4ever/wfdesc#" xmlns:wfprov="http://purl.org/wf4ever/wfprov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <prov:softwareAgent prov:id="run:36dd58bb-b50f-4774-9fbe-aeffc7234ae6">
+    <prov:label>cwltool 1.0.20180404035408</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:WorkflowEngine</prov:type>
+  </prov:softwareAgent>
+  <prov:activity prov:id="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2">
+    <prov:startTime>2018-04-04T22:36:35.558423</prov:startTime>
+    <prov:label>Run of workflow/packed.cwl#main</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:WorkflowRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:agent prov:ref="run:36dd58bb-b50f-4774-9fbe-aeffc7234ae6"/>
+    <prov:plan prov:ref="wf:main"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:starter prov:ref="run:36dd58bb-b50f-4774-9fbe-aeffc7234ae6"/>
+    <prov:time>2018-04-04T22:36:35.558583</prov:time>
+  </prov:wasStartedBy>
+  <prov:plan prov:id="wf:main">
+    <prov:label>Prospective provenance</prov:label>
+    <prov:type xsi:type="xsd:QName">wfdesc:Workflow</prov:type>
+  </prov:plan>
+  <prov:plan prov:id="wf:main/alignment">
+    <prov:type xsi:type="xsd:QName">wfdesc:Process</prov:type>
+  </prov:plan>
+  <prov:entity prov:id="wf:main">
+    <prov:label>Prospective provenance</prov:label>
+    <wfdesc:hasSubProcess xsi:type="xsd:QName">wf:main/alignment</wfdesc:hasSubProcess>
+  </prov:entity>
+  <prov:entity prov:id="data:d11c343ec6f5903759f187c2f0da2b4a43ee781f">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:entity prov:id="data:9fd4675cf87d172a85ca12e6d089de1474f86cf8">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:entity prov:id="data:abf9e9baa77c12775dd92352a8aa1ef3c52613f6">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:entity prov:id="data:536e1785e59c0b8612b2f744321489a8e7fb00be">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:entity prov:id="data:13babc41aa2530d0a5e5ec69809c8137198d167c">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:entity prov:id="data:f650cc2571ee262d625d2e6c8ec91ec9880fe61b">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:activity prov:id="run:954f6345-211b-4bca-b8cc-0ba34f5480ca">
+    <prov:label>Run of workflow/packed.cwl#main/workflow%20workflow_simple.cwl</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:954f6345-211b-4bca-b8cc-0ba34f5480ca"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-04T22:36:35.588761</prov:time>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="run:34ff7daf-fb51-4b71-b6d2-4bd023ec3549">
+    <prov:label>Run of workflow/packed.cwl#main/workflow%20alignment</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:34ff7daf-fb51-4b71-b6d2-4bd023ec3549"/>
+    <prov:plan prov:ref="wf:main/workflow%20alignment"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:34ff7daf-fb51-4b71-b6d2-4bd023ec3549"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-04T22:36:35.607182</prov:time>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="run:22c34348-f4e4-4563-9d4f-95eb67bd4a46">
+    <prov:label>Run of workflow/packed.cwl#main/clustal</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"/>
+    <prov:plan prov:ref="wf:main/clustal"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-04T22:36:35.616098</prov:time>
+  </prov:wasStartedBy>
+  <prov:softwareAgent prov:id="run:3b6e4a5b-5405-4ef5-b913-7a65f24d1f02">
+    <prov:label>Container execution of image biocontainers/clustal-omega</prov:label>
+    <cwlprov:image>biocontainers/clustal-omega</cwlprov:image>
+  </prov:softwareAgent>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"/>
+    <prov:agent prov:ref="run:3b6e4a5b-5405-4ef5-b913-7a65f24d1f02"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"/>
+    <prov:entity prov:ref="data:536e1785e59c0b8612b2f744321489a8e7fb00be"/>
+    <prov:time>2018-04-04T22:36:36.454528</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/clustal/multi_sequence</prov:role>
+  </prov:used>
+  <prov:entity prov:id="data:c928c112abc3cea7acb2bd55576126e72bc152b4">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:c928c112abc3cea7acb2bd55576126e72bc152b4"/>
+    <prov:activity prov:ref="run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"/>
+    <prov:time>2018-04-04T22:36:38.631787</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/clustal/guide_tree</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:entity prov:id="data:945e5c115e66772d0187b8e18b9083c2b6521c77">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:945e5c115e66772d0187b8e18b9083c2b6521c77"/>
+    <prov:activity prov:ref="run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"/>
+    <prov:time>2018-04-04T22:36:38.631787</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/clustal/alignment</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"/>
+    <prov:ender prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-04T22:36:38.632187</prov:time>
+  </prov:wasEndedBy>
+  <prov:activity prov:id="run:f34b6ecb-5abd-4352-9897-2f57079004ac">
+    <prov:label>Run of workflow/packed.cwl#main/pal2nal</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:f34b6ecb-5abd-4352-9897-2f57079004ac"/>
+    <prov:plan prov:ref="wf:main/pal2nal"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:f34b6ecb-5abd-4352-9897-2f57079004ac"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-04T22:36:38.638489</prov:time>
+  </prov:wasStartedBy>
+  <prov:softwareAgent prov:id="run:f68e5452-c817-473d-b36b-3b6e31307875">
+    <prov:label>Container execution of image ubuntu-test</prov:label>
+    <cwlprov:image>ubuntu-test</cwlprov:image>
+  </prov:softwareAgent>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:f34b6ecb-5abd-4352-9897-2f57079004ac"/>
+    <prov:agent prov:ref="run:f68e5452-c817-473d-b36b-3b6e31307875"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="run:f34b6ecb-5abd-4352-9897-2f57079004ac"/>
+    <prov:entity prov:ref="data:d11c343ec6f5903759f187c2f0da2b4a43ee781f"/>
+    <prov:time>2018-04-04T22:36:39.031154</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/pal2nal/nucleotides</prov:role>
+  </prov:used>
+  <prov:used>
+    <prov:activity prov:ref="run:f34b6ecb-5abd-4352-9897-2f57079004ac"/>
+    <prov:entity prov:ref="data:945e5c115e66772d0187b8e18b9083c2b6521c77"/>
+    <prov:time>2018-04-04T22:36:39.031581</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/pal2nal/protein_alignment</prov:role>
+  </prov:used>
+  <prov:entity prov:id="data:0574eeac021531539d627dd7fe1c0151f025b0c9">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:0574eeac021531539d627dd7fe1c0151f025b0c9"/>
+    <prov:activity prov:ref="run:f34b6ecb-5abd-4352-9897-2f57079004ac"/>
+    <prov:time>2018-04-04T22:36:40.435793</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/pal2nal/alignment</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:f34b6ecb-5abd-4352-9897-2f57079004ac"/>
+    <prov:ender prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-04T22:36:40.436073</prov:time>
+  </prov:wasEndedBy>
+  <prov:activity prov:id="run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3">
+    <prov:label>Run of workflow/packed.cwl#main/codeml</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"/>
+    <prov:plan prov:ref="wf:main/codeml"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-04T22:36:40.440534</prov:time>
+  </prov:wasStartedBy>
+  <prov:softwareAgent prov:id="run:5c3c1b77-f9f5-4f46-a77a-6bad0f328a3a">
+    <prov:label>Container execution of image bionode/paml</prov:label>
+    <cwlprov:image>bionode/paml</cwlprov:image>
+  </prov:softwareAgent>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"/>
+    <prov:agent prov:ref="run:5c3c1b77-f9f5-4f46-a77a-6bad0f328a3a"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"/>
+    <prov:entity prov:ref="data:c928c112abc3cea7acb2bd55576126e72bc152b4"/>
+    <prov:time>2018-04-04T22:36:40.824451</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/codeml/tree</prov:role>
+  </prov:used>
+  <prov:entity prov:id="data:80050c93bfe00864b918814f1f36f96c035ba621">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:80050c93bfe00864b918814f1f36f96c035ba621"/>
+    <prov:activity prov:ref="run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"/>
+    <prov:time>2018-04-05T04:31:29.432860</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/codeml/results</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"/>
+    <prov:ender prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T04:31:29.433913</prov:time>
+  </prov:wasEndedBy>
+  <prov:activity prov:id="run:79c16026-3c63-4acd-85a6-d01f014df1c5">
+    <prov:label>Run of workflow/packed.cwl#main/workflow%20alignment_2</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:79c16026-3c63-4acd-85a6-d01f014df1c5"/>
+    <prov:plan prov:ref="wf:main/workflow%20alignment_2"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:79c16026-3c63-4acd-85a6-d01f014df1c5"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T04:31:29.443567</prov:time>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="run:e424c9cb-7550-4ec4-b06c-c913c278beb9">
+    <prov:label>Run of workflow/packed.cwl#main/clustal_2</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:e424c9cb-7550-4ec4-b06c-c913c278beb9"/>
+    <prov:plan prov:ref="wf:main/clustal_2"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:e424c9cb-7550-4ec4-b06c-c913c278beb9"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T04:31:29.456137</prov:time>
+  </prov:wasStartedBy>
+  <prov:softwareAgent prov:id="run:ab0493da-87e0-4d0b-90fe-48509fa13d41">
+    <prov:label>Container execution of image biocontainers/clustal-omega</prov:label>
+    <cwlprov:image>biocontainers/clustal-omega</cwlprov:image>
+  </prov:softwareAgent>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:e424c9cb-7550-4ec4-b06c-c913c278beb9"/>
+    <prov:agent prov:ref="run:ab0493da-87e0-4d0b-90fe-48509fa13d41"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="run:e424c9cb-7550-4ec4-b06c-c913c278beb9"/>
+    <prov:entity prov:ref="data:13babc41aa2530d0a5e5ec69809c8137198d167c"/>
+    <prov:time>2018-04-05T04:31:30.387858</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/clustal_2/multi_sequence</prov:role>
+  </prov:used>
+  <prov:entity prov:id="data:96497c2504be7dcea9a0dfb3e2791693f13da15d">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:96497c2504be7dcea9a0dfb3e2791693f13da15d"/>
+    <prov:activity prov:ref="run:e424c9cb-7550-4ec4-b06c-c913c278beb9"/>
+    <prov:time>2018-04-05T04:31:32.927818</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/clustal_2/guide_tree</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:entity prov:id="data:dee1b558d35e62b123ae068bbc387c1fbcf96518">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:dee1b558d35e62b123ae068bbc387c1fbcf96518"/>
+    <prov:activity prov:ref="run:e424c9cb-7550-4ec4-b06c-c913c278beb9"/>
+    <prov:time>2018-04-05T04:31:32.927818</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/clustal_2/alignment</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:e424c9cb-7550-4ec4-b06c-c913c278beb9"/>
+    <prov:ender prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T04:31:32.928500</prov:time>
+  </prov:wasEndedBy>
+  <prov:activity prov:id="run:cf568068-6931-4e7c-aa89-60e1383e21b4">
+    <prov:label>Run of workflow/packed.cwl#main/pal2nal_2</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:cf568068-6931-4e7c-aa89-60e1383e21b4"/>
+    <prov:plan prov:ref="wf:main/pal2nal_2"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:cf568068-6931-4e7c-aa89-60e1383e21b4"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T04:31:32.938651</prov:time>
+  </prov:wasStartedBy>
+  <prov:softwareAgent prov:id="run:62d245d9-69dc-4221-a682-6def6cf79d0c">
+    <prov:label>Container execution of image ubuntu-test</prov:label>
+    <cwlprov:image>ubuntu-test</cwlprov:image>
+  </prov:softwareAgent>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:cf568068-6931-4e7c-aa89-60e1383e21b4"/>
+    <prov:agent prov:ref="run:62d245d9-69dc-4221-a682-6def6cf79d0c"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="run:cf568068-6931-4e7c-aa89-60e1383e21b4"/>
+    <prov:entity prov:ref="data:9fd4675cf87d172a85ca12e6d089de1474f86cf8"/>
+    <prov:time>2018-04-05T04:31:33.254899</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/pal2nal_2/nucleotides</prov:role>
+  </prov:used>
+  <prov:used>
+    <prov:activity prov:ref="run:cf568068-6931-4e7c-aa89-60e1383e21b4"/>
+    <prov:entity prov:ref="data:dee1b558d35e62b123ae068bbc387c1fbcf96518"/>
+    <prov:time>2018-04-05T04:31:33.255425</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/pal2nal_2/protein_alignment</prov:role>
+  </prov:used>
+  <prov:entity prov:id="data:372da5737334b0493239411674a02fca5909ec05">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:372da5737334b0493239411674a02fca5909ec05"/>
+    <prov:activity prov:ref="run:cf568068-6931-4e7c-aa89-60e1383e21b4"/>
+    <prov:time>2018-04-05T04:31:34.888055</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/pal2nal_2/alignment</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:cf568068-6931-4e7c-aa89-60e1383e21b4"/>
+    <prov:ender prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T04:31:34.888334</prov:time>
+  </prov:wasEndedBy>
+  <prov:activity prov:id="run:3ba70600-60a3-4599-b913-6aaa2f0cc726">
+    <prov:label>Run of workflow/packed.cwl#main/codeml_2</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:3ba70600-60a3-4599-b913-6aaa2f0cc726"/>
+    <prov:plan prov:ref="wf:main/codeml_2"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:3ba70600-60a3-4599-b913-6aaa2f0cc726"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T04:31:34.894681</prov:time>
+  </prov:wasStartedBy>
+  <prov:softwareAgent prov:id="run:49569f9b-d3bc-432f-a626-c9b5b71d3fa8">
+    <prov:label>Container execution of image bionode/paml</prov:label>
+    <cwlprov:image>bionode/paml</cwlprov:image>
+  </prov:softwareAgent>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:3ba70600-60a3-4599-b913-6aaa2f0cc726"/>
+    <prov:agent prov:ref="run:49569f9b-d3bc-432f-a626-c9b5b71d3fa8"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="run:3ba70600-60a3-4599-b913-6aaa2f0cc726"/>
+    <prov:entity prov:ref="data:96497c2504be7dcea9a0dfb3e2791693f13da15d"/>
+    <prov:time>2018-04-05T04:31:35.172152</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/codeml_2/tree</prov:role>
+  </prov:used>
+  <prov:entity prov:id="data:28969cf44fb13e533b2e7d9b3bdefe98c01f5047">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:28969cf44fb13e533b2e7d9b3bdefe98c01f5047"/>
+    <prov:activity prov:ref="run:3ba70600-60a3-4599-b913-6aaa2f0cc726"/>
+    <prov:time>2018-04-05T06:01:35.916679</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/codeml_2/results</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:3ba70600-60a3-4599-b913-6aaa2f0cc726"/>
+    <prov:ender prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:01:35.918068</prov:time>
+  </prov:wasEndedBy>
+  <prov:activity prov:id="run:3fb1468a-1878-46a8-836e-fd915176c96a">
+    <prov:label>Run of workflow/packed.cwl#main/workflow%20alignment_3</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:3fb1468a-1878-46a8-836e-fd915176c96a"/>
+    <prov:plan prov:ref="wf:main/workflow%20alignment_3"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:3fb1468a-1878-46a8-836e-fd915176c96a"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:01:35.931382</prov:time>
+  </prov:wasStartedBy>
+  <prov:activity prov:id="run:2630800f-579c-4445-8378-83e239061b5a">
+    <prov:label>Run of workflow/packed.cwl#main/clustal_3</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:2630800f-579c-4445-8378-83e239061b5a"/>
+    <prov:plan prov:ref="wf:main/clustal_3"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:2630800f-579c-4445-8378-83e239061b5a"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:01:35.941208</prov:time>
+  </prov:wasStartedBy>
+  <prov:softwareAgent prov:id="run:59bc8ade-3841-4cce-bc73-4f57dbfc934b">
+    <prov:label>Container execution of image biocontainers/clustal-omega</prov:label>
+    <cwlprov:image>biocontainers/clustal-omega</cwlprov:image>
+  </prov:softwareAgent>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:2630800f-579c-4445-8378-83e239061b5a"/>
+    <prov:agent prov:ref="run:59bc8ade-3841-4cce-bc73-4f57dbfc934b"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="run:2630800f-579c-4445-8378-83e239061b5a"/>
+    <prov:entity prov:ref="data:f650cc2571ee262d625d2e6c8ec91ec9880fe61b"/>
+    <prov:time>2018-04-05T06:01:37.259025</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/clustal_3/multi_sequence</prov:role>
+  </prov:used>
+  <prov:entity prov:id="data:b6de9049d570e23bb134752a1bb6bb81562e8406">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:b6de9049d570e23bb134752a1bb6bb81562e8406"/>
+    <prov:activity prov:ref="run:2630800f-579c-4445-8378-83e239061b5a"/>
+    <prov:time>2018-04-05T06:01:41.977529</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/clustal_3/guide_tree</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:entity prov:id="data:e2f6fb0c4ed4f428ccb30c91ccf82369e7fee67c">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:e2f6fb0c4ed4f428ccb30c91ccf82369e7fee67c"/>
+    <prov:activity prov:ref="run:2630800f-579c-4445-8378-83e239061b5a"/>
+    <prov:time>2018-04-05T06:01:41.977529</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/clustal_3/alignment</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:2630800f-579c-4445-8378-83e239061b5a"/>
+    <prov:ender prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:01:41.977885</prov:time>
+  </prov:wasEndedBy>
+  <prov:activity prov:id="run:8a24d345-95e3-4074-89f3-db164f5bee54">
+    <prov:label>Run of workflow/packed.cwl#main/pal2nal_3</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:8a24d345-95e3-4074-89f3-db164f5bee54"/>
+    <prov:plan prov:ref="wf:main/pal2nal_3"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:8a24d345-95e3-4074-89f3-db164f5bee54"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:01:41.986871</prov:time>
+  </prov:wasStartedBy>
+  <prov:softwareAgent prov:id="run:ef73cd8f-3eb9-4832-a233-4f9285652e06">
+    <prov:label>Container execution of image ubuntu-test</prov:label>
+    <cwlprov:image>ubuntu-test</cwlprov:image>
+  </prov:softwareAgent>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:8a24d345-95e3-4074-89f3-db164f5bee54"/>
+    <prov:agent prov:ref="run:ef73cd8f-3eb9-4832-a233-4f9285652e06"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="run:8a24d345-95e3-4074-89f3-db164f5bee54"/>
+    <prov:entity prov:ref="data:abf9e9baa77c12775dd92352a8aa1ef3c52613f6"/>
+    <prov:time>2018-04-05T06:01:42.266712</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/pal2nal_3/nucleotides</prov:role>
+  </prov:used>
+  <prov:used>
+    <prov:activity prov:ref="run:8a24d345-95e3-4074-89f3-db164f5bee54"/>
+    <prov:entity prov:ref="data:e2f6fb0c4ed4f428ccb30c91ccf82369e7fee67c"/>
+    <prov:time>2018-04-05T06:01:42.267035</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/pal2nal_3/protein_alignment</prov:role>
+  </prov:used>
+  <prov:entity prov:id="data:a18fea21aeca7c7b615062c7b0cb1516ced61b93">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:a18fea21aeca7c7b615062c7b0cb1516ced61b93"/>
+    <prov:activity prov:ref="run:8a24d345-95e3-4074-89f3-db164f5bee54"/>
+    <prov:time>2018-04-05T06:01:43.791334</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/pal2nal_3/alignment</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:8a24d345-95e3-4074-89f3-db164f5bee54"/>
+    <prov:ender prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:01:43.791592</prov:time>
+  </prov:wasEndedBy>
+  <prov:activity prov:id="run:ca2913ad-0b90-48b3-9770-12f256415791">
+    <prov:label>Run of workflow/packed.cwl#main/codeml_3</prov:label>
+    <prov:type xsi:type="xsd:QName">wfprov:ProcessRun</prov:type>
+  </prov:activity>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:ca2913ad-0b90-48b3-9770-12f256415791"/>
+    <prov:plan prov:ref="wf:main/codeml_3"/>
+  </prov:wasAssociatedWith>
+  <prov:wasStartedBy>
+    <prov:activity prov:ref="run:ca2913ad-0b90-48b3-9770-12f256415791"/>
+    <prov:starter prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:01:43.796711</prov:time>
+  </prov:wasStartedBy>
+  <prov:softwareAgent prov:id="run:e75438ce-c958-4896-82ea-288ca8d02fe5">
+    <prov:label>Container execution of image bionode/paml</prov:label>
+    <cwlprov:image>bionode/paml</cwlprov:image>
+  </prov:softwareAgent>
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="run:ca2913ad-0b90-48b3-9770-12f256415791"/>
+    <prov:agent prov:ref="run:e75438ce-c958-4896-82ea-288ca8d02fe5"/>
+  </prov:wasAssociatedWith>
+  <prov:used>
+    <prov:activity prov:ref="run:ca2913ad-0b90-48b3-9770-12f256415791"/>
+    <prov:entity prov:ref="data:b6de9049d570e23bb134752a1bb6bb81562e8406"/>
+    <prov:time>2018-04-05T06:01:44.074130</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/codeml_3/tree</prov:role>
+  </prov:used>
+  <prov:entity prov:id="data:6d5d41d82adf69432d1bec1aca8fa68d515ba4a5">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:6d5d41d82adf69432d1bec1aca8fa68d515ba4a5"/>
+    <prov:activity prov:ref="run:ca2913ad-0b90-48b3-9770-12f256415791"/>
+    <prov:time>2018-04-05T06:22:35.996326</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/codeml_3/results</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:ca2913ad-0b90-48b3-9770-12f256415791"/>
+    <prov:ender prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:22:35.996640</prov:time>
+  </prov:wasEndedBy>
+  <prov:entity prov:id="data:80050c93bfe00864b918814f1f36f96c035ba621">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:80050c93bfe00864b918814f1f36f96c035ba621"/>
+    <prov:activity prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:22:35.998852</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/results</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:entity prov:id="data:28969cf44fb13e533b2e7d9b3bdefe98c01f5047">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:28969cf44fb13e533b2e7d9b3bdefe98c01f5047"/>
+    <prov:activity prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:22:35.998852</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/results</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:entity prov:id="data:6d5d41d82adf69432d1bec1aca8fa68d515ba4a5">
+    <prov:type xsi:type="xsd:QName">wfprov:Artifact</prov:type>
+  </prov:entity>
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="data:6d5d41d82adf69432d1bec1aca8fa68d515ba4a5"/>
+    <prov:activity prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:time>2018-04-05T06:22:35.998852</prov:time>
+    <prov:role xsi:type="xsd:QName">wf:main/results</prov:role>
+  </prov:wasGeneratedBy>
+  <prov:wasEndedBy>
+    <prov:activity prov:ref="run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"/>
+    <prov:ender prov:ref="run:36dd58bb-b50f-4774-9fbe-aeffc7234ae6"/>
+    <prov:time>2018-04-05T06:22:36.098590</prov:time>
+  </prov:wasEndedBy>
+</prov:document>

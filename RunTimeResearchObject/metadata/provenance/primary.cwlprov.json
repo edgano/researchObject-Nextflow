@@ -1,0 +1,831 @@
+{
+  "wasAssociatedWith": {
+    "_:id59": {
+      "prov:agent": "run:ef73cd8f-3eb9-4832-a233-4f9285652e06", 
+      "prov:activity": "run:8a24d345-95e3-4074-89f3-db164f5bee54"
+    }, 
+    "_:id28": {
+      "prov:plan": "wf:main/clustal_2", 
+      "prov:activity": "run:e424c9cb-7550-4ec4-b06c-c913c278beb9"
+    }, 
+    "_:id13": {
+      "prov:plan": "wf:main/pal2nal", 
+      "prov:activity": "run:f34b6ecb-5abd-4352-9897-2f57079004ac"
+    }, 
+    "_:id37": {
+      "prov:agent": "run:62d245d9-69dc-4221-a682-6def6cf79d0c", 
+      "prov:activity": "run:cf568068-6931-4e7c-aa89-60e1383e21b4"
+    }, 
+    "_:id50": {
+      "prov:plan": "wf:main/clustal_3", 
+      "prov:activity": "run:2630800f-579c-4445-8378-83e239061b5a"
+    }, 
+    "_:id35": {
+      "prov:plan": "wf:main/pal2nal_2", 
+      "prov:activity": "run:cf568068-6931-4e7c-aa89-60e1383e21b4"
+    }, 
+    "_:id52": {
+      "prov:agent": "run:59bc8ade-3841-4cce-bc73-4f57dbfc934b", 
+      "prov:activity": "run:2630800f-579c-4445-8378-83e239061b5a"
+    }, 
+    "_:id57": {
+      "prov:plan": "wf:main/pal2nal_3", 
+      "prov:activity": "run:8a24d345-95e3-4074-89f3-db164f5bee54"
+    }, 
+    "_:id30": {
+      "prov:agent": "run:ab0493da-87e0-4d0b-90fe-48509fa13d41", 
+      "prov:activity": "run:e424c9cb-7550-4ec4-b06c-c913c278beb9"
+    }, 
+    "_:id4": {
+      "prov:plan": "wf:main/workflow%20alignment", 
+      "prov:activity": "run:34ff7daf-fb51-4b71-b6d2-4bd023ec3549"
+    }, 
+    "_:id6": {
+      "prov:plan": "wf:main/clustal", 
+      "prov:activity": "run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"
+    }, 
+    "_:id1": {
+      "prov:plan": "wf:main", 
+      "prov:agent": "run:36dd58bb-b50f-4774-9fbe-aeffc7234ae6", 
+      "prov:activity": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"
+    }, 
+    "_:id8": {
+      "prov:agent": "run:3b6e4a5b-5405-4ef5-b913-7a65f24d1f02", 
+      "prov:activity": "run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"
+    }, 
+    "_:id64": {
+      "prov:plan": "wf:main/codeml_3", 
+      "prov:activity": "run:ca2913ad-0b90-48b3-9770-12f256415791"
+    }, 
+    "_:id66": {
+      "prov:agent": "run:e75438ce-c958-4896-82ea-288ca8d02fe5", 
+      "prov:activity": "run:ca2913ad-0b90-48b3-9770-12f256415791"
+    }, 
+    "_:id20": {
+      "prov:plan": "wf:main/codeml", 
+      "prov:activity": "run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"
+    }, 
+    "_:id48": {
+      "prov:plan": "wf:main/workflow%20alignment_3", 
+      "prov:activity": "run:3fb1468a-1878-46a8-836e-fd915176c96a"
+    }, 
+    "_:id26": {
+      "prov:plan": "wf:main/workflow%20alignment_2", 
+      "prov:activity": "run:79c16026-3c63-4acd-85a6-d01f014df1c5"
+    }, 
+    "_:id42": {
+      "prov:plan": "wf:main/codeml_2", 
+      "prov:activity": "run:3ba70600-60a3-4599-b913-6aaa2f0cc726"
+    }, 
+    "_:id44": {
+      "prov:agent": "run:49569f9b-d3bc-432f-a626-c9b5b71d3fa8", 
+      "prov:activity": "run:3ba70600-60a3-4599-b913-6aaa2f0cc726"
+    }, 
+    "_:id15": {
+      "prov:agent": "run:f68e5452-c817-473d-b36b-3b6e31307875", 
+      "prov:activity": "run:f34b6ecb-5abd-4352-9897-2f57079004ac"
+    }, 
+    "_:id22": {
+      "prov:agent": "run:5c3c1b77-f9f5-4f46-a77a-6bad0f328a3a", 
+      "prov:activity": "run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"
+    }
+  }, 
+  "wasEndedBy": {
+    "_:id73": {
+      "prov:time": "2018-04-05T06:22:36.098590", 
+      "prov:ender": "run:36dd58bb-b50f-4774-9fbe-aeffc7234ae6", 
+      "prov:activity": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"
+    }, 
+    "_:id34": {
+      "prov:time": "2018-04-05T04:31:32.928500", 
+      "prov:ender": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:e424c9cb-7550-4ec4-b06c-c913c278beb9"
+    }, 
+    "_:id63": {
+      "prov:time": "2018-04-05T06:01:43.791592", 
+      "prov:ender": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:8a24d345-95e3-4074-89f3-db164f5bee54"
+    }, 
+    "_:id69": {
+      "prov:time": "2018-04-05T06:22:35.996640", 
+      "prov:ender": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:ca2913ad-0b90-48b3-9770-12f256415791"
+    }, 
+    "_:id25": {
+      "prov:time": "2018-04-05T04:31:29.433913", 
+      "prov:ender": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"
+    }, 
+    "_:id12": {
+      "prov:time": "2018-04-04T22:36:38.632187", 
+      "prov:ender": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"
+    }, 
+    "_:id41": {
+      "prov:time": "2018-04-05T04:31:34.888334", 
+      "prov:ender": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:cf568068-6931-4e7c-aa89-60e1383e21b4"
+    }, 
+    "_:id19": {
+      "prov:time": "2018-04-04T22:36:40.436073", 
+      "prov:ender": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:f34b6ecb-5abd-4352-9897-2f57079004ac"
+    }, 
+    "_:id47": {
+      "prov:time": "2018-04-05T06:01:35.918068", 
+      "prov:ender": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:3ba70600-60a3-4599-b913-6aaa2f0cc726"
+    }, 
+    "_:id56": {
+      "prov:time": "2018-04-05T06:01:41.977885", 
+      "prov:ender": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:2630800f-579c-4445-8378-83e239061b5a"
+    }
+  }, 
+  "used": {
+    "_:id67": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/codeml_3/tree"
+      }, 
+      "prov:time": "2018-04-05T06:01:44.074130", 
+      "prov:entity": "data:b6de9049d570e23bb134752a1bb6bb81562e8406", 
+      "prov:activity": "run:ca2913ad-0b90-48b3-9770-12f256415791"
+    }, 
+    "_:id60": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/pal2nal_3/nucleotides"
+      }, 
+      "prov:time": "2018-04-05T06:01:42.266712", 
+      "prov:entity": "data:abf9e9baa77c12775dd92352a8aa1ef3c52613f6", 
+      "prov:activity": "run:8a24d345-95e3-4074-89f3-db164f5bee54"
+    }, 
+    "_:id61": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/pal2nal_3/protein_alignment"
+      }, 
+      "prov:time": "2018-04-05T06:01:42.267035", 
+      "prov:entity": "data:e2f6fb0c4ed4f428ccb30c91ccf82369e7fee67c", 
+      "prov:activity": "run:8a24d345-95e3-4074-89f3-db164f5bee54"
+    }, 
+    "_:id23": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/codeml/tree"
+      }, 
+      "prov:time": "2018-04-04T22:36:40.824451", 
+      "prov:entity": "data:c928c112abc3cea7acb2bd55576126e72bc152b4", 
+      "prov:activity": "run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"
+    }, 
+    "_:id9": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/clustal/multi_sequence"
+      }, 
+      "prov:time": "2018-04-04T22:36:36.454528", 
+      "prov:entity": "data:536e1785e59c0b8612b2f744321489a8e7fb00be", 
+      "prov:activity": "run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"
+    }, 
+    "_:id17": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/pal2nal/protein_alignment"
+      }, 
+      "prov:time": "2018-04-04T22:36:39.031581", 
+      "prov:entity": "data:945e5c115e66772d0187b8e18b9083c2b6521c77", 
+      "prov:activity": "run:f34b6ecb-5abd-4352-9897-2f57079004ac"
+    }, 
+    "_:id16": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/pal2nal/nucleotides"
+      }, 
+      "prov:time": "2018-04-04T22:36:39.031154", 
+      "prov:entity": "data:d11c343ec6f5903759f187c2f0da2b4a43ee781f", 
+      "prov:activity": "run:f34b6ecb-5abd-4352-9897-2f57079004ac"
+    }, 
+    "_:id39": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/pal2nal_2/protein_alignment"
+      }, 
+      "prov:time": "2018-04-05T04:31:33.255425", 
+      "prov:entity": "data:dee1b558d35e62b123ae068bbc387c1fbcf96518", 
+      "prov:activity": "run:cf568068-6931-4e7c-aa89-60e1383e21b4"
+    }, 
+    "_:id38": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/pal2nal_2/nucleotides"
+      }, 
+      "prov:time": "2018-04-05T04:31:33.254899", 
+      "prov:entity": "data:9fd4675cf87d172a85ca12e6d089de1474f86cf8", 
+      "prov:activity": "run:cf568068-6931-4e7c-aa89-60e1383e21b4"
+    }, 
+    "_:id53": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/clustal_3/multi_sequence"
+      }, 
+      "prov:time": "2018-04-05T06:01:37.259025", 
+      "prov:entity": "data:f650cc2571ee262d625d2e6c8ec91ec9880fe61b", 
+      "prov:activity": "run:2630800f-579c-4445-8378-83e239061b5a"
+    }, 
+    "_:id31": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/clustal_2/multi_sequence"
+      }, 
+      "prov:time": "2018-04-05T04:31:30.387858", 
+      "prov:entity": "data:13babc41aa2530d0a5e5ec69809c8137198d167c", 
+      "prov:activity": "run:e424c9cb-7550-4ec4-b06c-c913c278beb9"
+    }, 
+    "_:id45": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/codeml_2/tree"
+      }, 
+      "prov:time": "2018-04-05T04:31:35.172152", 
+      "prov:entity": "data:96497c2504be7dcea9a0dfb3e2791693f13da15d", 
+      "prov:activity": "run:3ba70600-60a3-4599-b913-6aaa2f0cc726"
+    }
+  }, 
+  "wasStartedBy": {
+    "_:id5": {
+      "prov:time": "2018-04-04T22:36:35.607182", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:34ff7daf-fb51-4b71-b6d2-4bd023ec3549"
+    }, 
+    "_:id65": {
+      "prov:time": "2018-04-05T06:01:43.796711", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:ca2913ad-0b90-48b3-9770-12f256415791"
+    }, 
+    "_:id7": {
+      "prov:time": "2018-04-04T22:36:35.616098", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"
+    }, 
+    "_:id3": {
+      "prov:time": "2018-04-04T22:36:35.588761", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:954f6345-211b-4bca-b8cc-0ba34f5480ca"
+    }, 
+    "_:id21": {
+      "prov:time": "2018-04-04T22:36:40.440534", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"
+    }, 
+    "_:id2": {
+      "prov:time": "2018-04-04T22:36:35.558583", 
+      "prov:starter": "run:36dd58bb-b50f-4774-9fbe-aeffc7234ae6", 
+      "prov:activity": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"
+    }, 
+    "_:id36": {
+      "prov:time": "2018-04-05T04:31:32.938651", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:cf568068-6931-4e7c-aa89-60e1383e21b4"
+    }, 
+    "_:id14": {
+      "prov:time": "2018-04-04T22:36:38.638489", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:f34b6ecb-5abd-4352-9897-2f57079004ac"
+    }, 
+    "_:id49": {
+      "prov:time": "2018-04-05T06:01:35.931382", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:3fb1468a-1878-46a8-836e-fd915176c96a"
+    }, 
+    "_:id58": {
+      "prov:time": "2018-04-05T06:01:41.986871", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:8a24d345-95e3-4074-89f3-db164f5bee54"
+    }, 
+    "_:id27": {
+      "prov:time": "2018-04-05T04:31:29.443567", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:79c16026-3c63-4acd-85a6-d01f014df1c5"
+    }, 
+    "_:id51": {
+      "prov:time": "2018-04-05T06:01:35.941208", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:2630800f-579c-4445-8378-83e239061b5a"
+    }, 
+    "_:id29": {
+      "prov:time": "2018-04-05T04:31:29.456137", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:e424c9cb-7550-4ec4-b06c-c913c278beb9"
+    }, 
+    "_:id43": {
+      "prov:time": "2018-04-05T04:31:34.894681", 
+      "prov:starter": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2", 
+      "prov:activity": "run:3ba70600-60a3-4599-b913-6aaa2f0cc726"
+    }
+  }, 
+  "agent": {
+    "run:e75438ce-c958-4896-82ea-288ca8d02fe5": {
+      "cwlprov:image": "bionode/paml", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "prov:SoftwareAgent"
+      }, 
+      "prov:label": "Container execution of image bionode/paml"
+    }, 
+    "run:36dd58bb-b50f-4774-9fbe-aeffc7234ae6": {
+      "prov:type": [
+        {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "wfprov:WorkflowEngine"
+        }, 
+        {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "prov:SoftwareAgent"
+        }
+      ], 
+      "prov:label": "cwltool 1.0.20180404035408"
+    }, 
+    "run:59bc8ade-3841-4cce-bc73-4f57dbfc934b": {
+      "cwlprov:image": "biocontainers/clustal-omega", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "prov:SoftwareAgent"
+      }, 
+      "prov:label": "Container execution of image biocontainers/clustal-omega"
+    }, 
+    "run:62d245d9-69dc-4221-a682-6def6cf79d0c": {
+      "cwlprov:image": "ubuntu-test", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "prov:SoftwareAgent"
+      }, 
+      "prov:label": "Container execution of image ubuntu-test"
+    }, 
+    "run:5c3c1b77-f9f5-4f46-a77a-6bad0f328a3a": {
+      "cwlprov:image": "bionode/paml", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "prov:SoftwareAgent"
+      }, 
+      "prov:label": "Container execution of image bionode/paml"
+    }, 
+    "run:f68e5452-c817-473d-b36b-3b6e31307875": {
+      "cwlprov:image": "ubuntu-test", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "prov:SoftwareAgent"
+      }, 
+      "prov:label": "Container execution of image ubuntu-test"
+    }, 
+    "run:49569f9b-d3bc-432f-a626-c9b5b71d3fa8": {
+      "cwlprov:image": "bionode/paml", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "prov:SoftwareAgent"
+      }, 
+      "prov:label": "Container execution of image bionode/paml"
+    }, 
+    "run:ab0493da-87e0-4d0b-90fe-48509fa13d41": {
+      "cwlprov:image": "biocontainers/clustal-omega", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "prov:SoftwareAgent"
+      }, 
+      "prov:label": "Container execution of image biocontainers/clustal-omega"
+    }, 
+    "run:3b6e4a5b-5405-4ef5-b913-7a65f24d1f02": {
+      "cwlprov:image": "biocontainers/clustal-omega", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "prov:SoftwareAgent"
+      }, 
+      "prov:label": "Container execution of image biocontainers/clustal-omega"
+    }, 
+    "run:ef73cd8f-3eb9-4832-a233-4f9285652e06": {
+      "cwlprov:image": "ubuntu-test", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "prov:SoftwareAgent"
+      }, 
+      "prov:label": "Container execution of image ubuntu-test"
+    }
+  }, 
+  "entity": {
+    "data:d11c343ec6f5903759f187c2f0da2b4a43ee781f": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:13babc41aa2530d0a5e5ec69809c8137198d167c": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:0574eeac021531539d627dd7fe1c0151f025b0c9": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:28969cf44fb13e533b2e7d9b3bdefe98c01f5047": [
+      {
+        "prov:type": {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "wfprov:Artifact"
+        }
+      }, 
+      {
+        "prov:type": {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "wfprov:Artifact"
+        }
+      }
+    ], 
+    "data:6d5d41d82adf69432d1bec1aca8fa68d515ba4a5": [
+      {
+        "prov:type": {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "wfprov:Artifact"
+        }
+      }, 
+      {
+        "prov:type": {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "wfprov:Artifact"
+        }
+      }
+    ], 
+    "data:536e1785e59c0b8612b2f744321489a8e7fb00be": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "wf:main/alignment": {
+      "prov:type": [
+        {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "wfdesc:Process"
+        }, 
+        {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "prov:Plan"
+        }
+      ]
+    }, 
+    "data:372da5737334b0493239411674a02fca5909ec05": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:abf9e9baa77c12775dd92352a8aa1ef3c52613f6": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:e2f6fb0c4ed4f428ccb30c91ccf82369e7fee67c": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:80050c93bfe00864b918814f1f36f96c035ba621": [
+      {
+        "prov:type": {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "wfprov:Artifact"
+        }
+      }, 
+      {
+        "prov:type": {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "wfprov:Artifact"
+        }
+      }
+    ], 
+    "data:945e5c115e66772d0187b8e18b9083c2b6521c77": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:c928c112abc3cea7acb2bd55576126e72bc152b4": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:a18fea21aeca7c7b615062c7b0cb1516ced61b93": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "wf:main": [
+      {
+        "prov:type": [
+          {
+            "type": "prov:QUALIFIED_NAME", 
+            "$": "wfdesc:Workflow"
+          }, 
+          {
+            "type": "prov:QUALIFIED_NAME", 
+            "$": "prov:Plan"
+          }
+        ], 
+        "prov:label": "Prospective provenance"
+      }, 
+      {
+        "wfdesc:hasSubProcess": {
+          "type": "prov:QUALIFIED_NAME", 
+          "$": "wf:main/alignment"
+        }, 
+        "prov:label": "Prospective provenance"
+      }
+    ], 
+    "data:f650cc2571ee262d625d2e6c8ec91ec9880fe61b": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:dee1b558d35e62b123ae068bbc387c1fbcf96518": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:9fd4675cf87d172a85ca12e6d089de1474f86cf8": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:b6de9049d570e23bb134752a1bb6bb81562e8406": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }, 
+    "data:96497c2504be7dcea9a0dfb3e2791693f13da15d": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:Artifact"
+      }
+    }
+  }, 
+  "prefix": {
+    "wf": "arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#", 
+    "run": "urn:uuid:", 
+    "wfprov": "http://purl.org/wf4ever/wfprov#", 
+    "researchobject": "arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/", 
+    "cwlprov": "https://w3id.org/cwl/prov#", 
+    "input": "arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/primary-job.json#", 
+    "wfdesc": "http://purl.org/wf4ever/wfdesc#", 
+    "sha256": "nih:sha-256;", 
+    "data": "urn:hash::sha1:"
+  }, 
+  "activity": {
+    "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2": {
+      "prov:startTime": "2018-04-04T22:36:35.558423", 
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:WorkflowRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main"
+    }, 
+    "run:3ba70600-60a3-4599-b913-6aaa2f0cc726": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/codeml_2"
+    }, 
+    "run:8a24d345-95e3-4074-89f3-db164f5bee54": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/pal2nal_3"
+    }, 
+    "run:e424c9cb-7550-4ec4-b06c-c913c278beb9": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/clustal_2"
+    }, 
+    "run:cf568068-6931-4e7c-aa89-60e1383e21b4": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/pal2nal_2"
+    }, 
+    "run:34ff7daf-fb51-4b71-b6d2-4bd023ec3549": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/workflow%20alignment"
+    }, 
+    "run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/codeml"
+    }, 
+    "run:79c16026-3c63-4acd-85a6-d01f014df1c5": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/workflow%20alignment_2"
+    }, 
+    "run:2630800f-579c-4445-8378-83e239061b5a": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/clustal_3"
+    }, 
+    "run:ca2913ad-0b90-48b3-9770-12f256415791": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/codeml_3"
+    }, 
+    "run:3fb1468a-1878-46a8-836e-fd915176c96a": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/workflow%20alignment_3"
+    }, 
+    "run:22c34348-f4e4-4563-9d4f-95eb67bd4a46": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/clustal"
+    }, 
+    "run:f34b6ecb-5abd-4352-9897-2f57079004ac": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/pal2nal"
+    }, 
+    "run:954f6345-211b-4bca-b8cc-0ba34f5480ca": {
+      "prov:type": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wfprov:ProcessRun"
+      }, 
+      "prov:label": "Run of workflow/packed.cwl#main/workflow%20workflow_simple.cwl"
+    }
+  }, 
+  "wasGeneratedBy": {
+    "_:id72": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/results"
+      }, 
+      "prov:time": "2018-04-05T06:22:35.998852", 
+      "prov:entity": "data:6d5d41d82adf69432d1bec1aca8fa68d515ba4a5", 
+      "prov:activity": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"
+    }, 
+    "_:id71": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/results"
+      }, 
+      "prov:time": "2018-04-05T06:22:35.998852", 
+      "prov:entity": "data:28969cf44fb13e533b2e7d9b3bdefe98c01f5047", 
+      "prov:activity": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"
+    }, 
+    "_:id70": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/results"
+      }, 
+      "prov:time": "2018-04-05T06:22:35.998852", 
+      "prov:entity": "data:80050c93bfe00864b918814f1f36f96c035ba621", 
+      "prov:activity": "run:66b766de-b56a-49de-9246-8a8c3ba1d0a2"
+    }, 
+    "_:id62": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/pal2nal_3/alignment"
+      }, 
+      "prov:time": "2018-04-05T06:01:43.791334", 
+      "prov:entity": "data:a18fea21aeca7c7b615062c7b0cb1516ced61b93", 
+      "prov:activity": "run:8a24d345-95e3-4074-89f3-db164f5bee54"
+    }, 
+    "_:id54": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/clustal_3/guide_tree"
+      }, 
+      "prov:time": "2018-04-05T06:01:41.977529", 
+      "prov:entity": "data:b6de9049d570e23bb134752a1bb6bb81562e8406", 
+      "prov:activity": "run:2630800f-579c-4445-8378-83e239061b5a"
+    }, 
+    "_:id46": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/codeml_2/results"
+      }, 
+      "prov:time": "2018-04-05T06:01:35.916679", 
+      "prov:entity": "data:28969cf44fb13e533b2e7d9b3bdefe98c01f5047", 
+      "prov:activity": "run:3ba70600-60a3-4599-b913-6aaa2f0cc726"
+    }, 
+    "_:id55": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/clustal_3/alignment"
+      }, 
+      "prov:time": "2018-04-05T06:01:41.977529", 
+      "prov:entity": "data:e2f6fb0c4ed4f428ccb30c91ccf82369e7fee67c", 
+      "prov:activity": "run:2630800f-579c-4445-8378-83e239061b5a"
+    }, 
+    "_:id68": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/codeml_3/results"
+      }, 
+      "prov:time": "2018-04-05T06:22:35.996326", 
+      "prov:entity": "data:6d5d41d82adf69432d1bec1aca8fa68d515ba4a5", 
+      "prov:activity": "run:ca2913ad-0b90-48b3-9770-12f256415791"
+    }, 
+    "_:id18": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/pal2nal/alignment"
+      }, 
+      "prov:time": "2018-04-04T22:36:40.435793", 
+      "prov:entity": "data:0574eeac021531539d627dd7fe1c0151f025b0c9", 
+      "prov:activity": "run:f34b6ecb-5abd-4352-9897-2f57079004ac"
+    }, 
+    "_:id24": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/codeml/results"
+      }, 
+      "prov:time": "2018-04-05T04:31:29.432860", 
+      "prov:entity": "data:80050c93bfe00864b918814f1f36f96c035ba621", 
+      "prov:activity": "run:889f2ec6-de3d-432f-9a15-6e359b1cdbd3"
+    }, 
+    "_:id10": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/clustal/guide_tree"
+      }, 
+      "prov:time": "2018-04-04T22:36:38.631787", 
+      "prov:entity": "data:c928c112abc3cea7acb2bd55576126e72bc152b4", 
+      "prov:activity": "run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"
+    }, 
+    "_:id11": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/clustal/alignment"
+      }, 
+      "prov:time": "2018-04-04T22:36:38.631787", 
+      "prov:entity": "data:945e5c115e66772d0187b8e18b9083c2b6521c77", 
+      "prov:activity": "run:22c34348-f4e4-4563-9d4f-95eb67bd4a46"
+    }, 
+    "_:id40": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/pal2nal_2/alignment"
+      }, 
+      "prov:time": "2018-04-05T04:31:34.888055", 
+      "prov:entity": "data:372da5737334b0493239411674a02fca5909ec05", 
+      "prov:activity": "run:cf568068-6931-4e7c-aa89-60e1383e21b4"
+    }, 
+    "_:id33": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/clustal_2/alignment"
+      }, 
+      "prov:time": "2018-04-05T04:31:32.927818", 
+      "prov:entity": "data:dee1b558d35e62b123ae068bbc387c1fbcf96518", 
+      "prov:activity": "run:e424c9cb-7550-4ec4-b06c-c913c278beb9"
+    }, 
+    "_:id32": {
+      "prov:role": {
+        "type": "prov:QUALIFIED_NAME", 
+        "$": "wf:main/clustal_2/guide_tree"
+      }, 
+      "prov:time": "2018-04-05T04:31:32.927818", 
+      "prov:entity": "data:96497c2504be7dcea9a0dfb3e2791693f13da15d", 
+      "prov:activity": "run:e424c9cb-7550-4ec4-b06c-c913c278beb9"
+    }
+  }
+}

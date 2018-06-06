@@ -1,0 +1,402 @@
+@prefix cwlprov: <https://w3id.org/cwl/prov#> .
+@prefix data: <urn:hash::sha1:> .
+@prefix input: <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/primary-job.json#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix researchobject: <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/> .
+@prefix run: <urn:uuid:> .
+@prefix sha256: <nih:sha-256;> .
+@prefix wf: <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#> .
+@prefix wfdesc: <http://purl.org/wf4ever/wfdesc#> .
+@prefix wfprov: <http://purl.org/wf4ever/wfprov#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:hash::sha1:0574eeac021531539d627dd7fe1c0151f025b0c9> a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity run:f34b6ecb-5abd-4352-9897-2f57079004ac ;
+            prov:atTime "2018-04-04T22:36:40.435793"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal/alignment> ] .
+
+<urn:hash::sha1:28969cf44fb13e533b2e7d9b3bdefe98c01f5047> a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity <urn:uuid:3ba70600-60a3-4599-b913-6aaa2f0cc726> ;
+            prov:atTime "2018-04-05T06:01:35.916679"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/codeml_2/results> ],
+        [ a prov:Generation ;
+            prov:activity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ;
+            prov:atTime "2018-04-05T06:22:35.998852"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/results> ] .
+
+<urn:hash::sha1:372da5737334b0493239411674a02fca5909ec05> a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity run:cf568068-6931-4e7c-aa89-60e1383e21b4 ;
+            prov:atTime "2018-04-05T04:31:34.888055"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal_2/alignment> ] .
+
+<urn:hash::sha1:6d5d41d82adf69432d1bec1aca8fa68d515ba4a5> a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ;
+            prov:atTime "2018-04-05T06:22:35.998852"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/results> ],
+        [ a prov:Generation ;
+            prov:activity run:ca2913ad-0b90-48b3-9770-12f256415791 ;
+            prov:atTime "2018-04-05T06:22:35.996326"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/codeml_3/results> ] .
+
+<urn:hash::sha1:80050c93bfe00864b918814f1f36f96c035ba621> a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity <urn:uuid:889f2ec6-de3d-432f-9a15-6e359b1cdbd3> ;
+            prov:atTime "2018-04-05T04:31:29.432860"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/codeml/results> ],
+        [ a prov:Generation ;
+            prov:activity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ;
+            prov:atTime "2018-04-05T06:22:35.998852"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/results> ] .
+
+data:a18fea21aeca7c7b615062c7b0cb1516ced61b93 a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity <urn:uuid:8a24d345-95e3-4074-89f3-db164f5bee54> ;
+            prov:atTime "2018-04-05T06:01:43.791334"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal_3/alignment> ] .
+
+<urn:uuid:34ff7daf-fb51-4b71-b6d2-4bd023ec3549> a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/workflow%20alignment"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/workflow%20alignment> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-04T22:36:35.607182"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] .
+
+<urn:uuid:3fb1468a-1878-46a8-836e-fd915176c96a> a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/workflow%20alignment_3"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/workflow%20alignment_3> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-05T06:01:35.931382"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] .
+
+<urn:uuid:79c16026-3c63-4acd-85a6-d01f014df1c5> a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/workflow%20alignment_2"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/workflow%20alignment_2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-05T04:31:29.443567"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] .
+
+<urn:uuid:954f6345-211b-4bca-b8cc-0ba34f5480ca> a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/workflow%20workflow_simple.cwl"^^xsd:string ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-04T22:36:35.588761"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] .
+
+wf:main a wfdesc:Workflow,
+        prov:Entity,
+        prov:Plan ;
+    rdfs:label "Prospective provenance"^^xsd:string ;
+    wfdesc:hasSubProcess <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/alignment> .
+
+<arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/alignment> a wfdesc:Process,
+        prov:Entity,
+        prov:Plan .
+
+<urn:hash::sha1:13babc41aa2530d0a5e5ec69809c8137198d167c> a wfprov:Artifact,
+        prov:Entity .
+
+<urn:hash::sha1:536e1785e59c0b8612b2f744321489a8e7fb00be> a wfprov:Artifact,
+        prov:Entity .
+
+<urn:hash::sha1:945e5c115e66772d0187b8e18b9083c2b6521c77> a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity <urn:uuid:22c34348-f4e4-4563-9d4f-95eb67bd4a46> ;
+            prov:atTime "2018-04-04T22:36:38.631787"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal/alignment> ] .
+
+<urn:hash::sha1:96497c2504be7dcea9a0dfb3e2791693f13da15d> a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity run:e424c9cb-7550-4ec4-b06c-c913c278beb9 ;
+            prov:atTime "2018-04-05T04:31:32.927818"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal_2/guide_tree> ] .
+
+<urn:hash::sha1:9fd4675cf87d172a85ca12e6d089de1474f86cf8> a wfprov:Artifact,
+        prov:Entity .
+
+data:abf9e9baa77c12775dd92352a8aa1ef3c52613f6 a wfprov:Artifact,
+        prov:Entity .
+
+data:b6de9049d570e23bb134752a1bb6bb81562e8406 a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity <urn:uuid:2630800f-579c-4445-8378-83e239061b5a> ;
+            prov:atTime "2018-04-05T06:01:41.977529"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal_3/guide_tree> ] .
+
+data:c928c112abc3cea7acb2bd55576126e72bc152b4 a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity <urn:uuid:22c34348-f4e4-4563-9d4f-95eb67bd4a46> ;
+            prov:atTime "2018-04-04T22:36:38.631787"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal/guide_tree> ] .
+
+data:d11c343ec6f5903759f187c2f0da2b4a43ee781f a wfprov:Artifact,
+        prov:Entity .
+
+data:dee1b558d35e62b123ae068bbc387c1fbcf96518 a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity run:e424c9cb-7550-4ec4-b06c-c913c278beb9 ;
+            prov:atTime "2018-04-05T04:31:32.927818"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal_2/alignment> ] .
+
+data:e2f6fb0c4ed4f428ccb30c91ccf82369e7fee67c a wfprov:Artifact,
+        prov:Entity ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity <urn:uuid:2630800f-579c-4445-8378-83e239061b5a> ;
+            prov:atTime "2018-04-05T06:01:41.977529"^^xsd:dateTime ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal_3/alignment> ] .
+
+data:f650cc2571ee262d625d2e6c8ec91ec9880fe61b a wfprov:Artifact,
+        prov:Entity .
+
+<urn:uuid:3b6e4a5b-5405-4ef5-b913-7a65f24d1f02> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Container execution of image biocontainers/clustal-omega"^^xsd:string ;
+    cwlprov:image "biocontainers/clustal-omega"^^xsd:string .
+
+<urn:uuid:3ba70600-60a3-4599-b913-6aaa2f0cc726> a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/codeml_2"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/codeml_2> ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-05T06:01:35.918068"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-05T04:31:34.894681"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:atTime "2018-04-05T04:31:35.172152"^^xsd:dateTime ;
+            prov:entity <urn:hash::sha1:96497c2504be7dcea9a0dfb3e2791693f13da15d> ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/codeml_2/tree> ] ;
+    prov:wasAssociatedWith <urn:uuid:49569f9b-d3bc-432f-a626-c9b5b71d3fa8> .
+
+<urn:uuid:49569f9b-d3bc-432f-a626-c9b5b71d3fa8> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Container execution of image bionode/paml"^^xsd:string ;
+    cwlprov:image "bionode/paml"^^xsd:string .
+
+<urn:uuid:59bc8ade-3841-4cce-bc73-4f57dbfc934b> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Container execution of image biocontainers/clustal-omega"^^xsd:string ;
+    cwlprov:image "biocontainers/clustal-omega"^^xsd:string .
+
+<urn:uuid:5c3c1b77-f9f5-4f46-a77a-6bad0f328a3a> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Container execution of image bionode/paml"^^xsd:string ;
+    cwlprov:image "bionode/paml"^^xsd:string .
+
+<urn:uuid:62d245d9-69dc-4221-a682-6def6cf79d0c> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Container execution of image ubuntu-test"^^xsd:string ;
+    cwlprov:image "ubuntu-test"^^xsd:string .
+
+<urn:uuid:889f2ec6-de3d-432f-9a15-6e359b1cdbd3> a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/codeml"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/codeml> ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-05T04:31:29.433913"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-04T22:36:40.440534"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:atTime "2018-04-04T22:36:40.824451"^^xsd:dateTime ;
+            prov:entity data:c928c112abc3cea7acb2bd55576126e72bc152b4 ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/codeml/tree> ] ;
+    prov:wasAssociatedWith <urn:uuid:5c3c1b77-f9f5-4f46-a77a-6bad0f328a3a> .
+
+<urn:uuid:8a24d345-95e3-4074-89f3-db164f5bee54> a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/pal2nal_3"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal_3> ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-05T06:01:43.791592"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-05T06:01:41.986871"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:atTime "2018-04-05T06:01:42.267035"^^xsd:dateTime ;
+            prov:entity data:e2f6fb0c4ed4f428ccb30c91ccf82369e7fee67c ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal_3/protein_alignment> ],
+        [ a prov:Usage ;
+            prov:atTime "2018-04-05T06:01:42.266712"^^xsd:dateTime ;
+            prov:entity data:abf9e9baa77c12775dd92352a8aa1ef3c52613f6 ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal_3/nucleotides> ] ;
+    prov:wasAssociatedWith run:ef73cd8f-3eb9-4832-a233-4f9285652e06 .
+
+run:ab0493da-87e0-4d0b-90fe-48509fa13d41 a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Container execution of image biocontainers/clustal-omega"^^xsd:string ;
+    cwlprov:image "biocontainers/clustal-omega"^^xsd:string .
+
+run:ca2913ad-0b90-48b3-9770-12f256415791 a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/codeml_3"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/codeml_3> ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-05T06:22:35.996640"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-05T06:01:43.796711"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:atTime "2018-04-05T06:01:44.074130"^^xsd:dateTime ;
+            prov:entity data:b6de9049d570e23bb134752a1bb6bb81562e8406 ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/codeml_3/tree> ] ;
+    prov:wasAssociatedWith run:e75438ce-c958-4896-82ea-288ca8d02fe5 .
+
+run:cf568068-6931-4e7c-aa89-60e1383e21b4 a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/pal2nal_2"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal_2> ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-05T04:31:34.888334"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-05T04:31:32.938651"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:atTime "2018-04-05T04:31:33.255425"^^xsd:dateTime ;
+            prov:entity data:dee1b558d35e62b123ae068bbc387c1fbcf96518 ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal_2/protein_alignment> ],
+        [ a prov:Usage ;
+            prov:atTime "2018-04-05T04:31:33.254899"^^xsd:dateTime ;
+            prov:entity <urn:hash::sha1:9fd4675cf87d172a85ca12e6d089de1474f86cf8> ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal_2/nucleotides> ] ;
+    prov:wasAssociatedWith <urn:uuid:62d245d9-69dc-4221-a682-6def6cf79d0c> .
+
+run:e75438ce-c958-4896-82ea-288ca8d02fe5 a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Container execution of image bionode/paml"^^xsd:string ;
+    cwlprov:image "bionode/paml"^^xsd:string .
+
+run:ef73cd8f-3eb9-4832-a233-4f9285652e06 a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Container execution of image ubuntu-test"^^xsd:string ;
+    cwlprov:image "ubuntu-test"^^xsd:string .
+
+run:f34b6ecb-5abd-4352-9897-2f57079004ac a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/pal2nal"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal> ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-04T22:36:40.436073"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-04T22:36:38.638489"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:atTime "2018-04-04T22:36:39.031154"^^xsd:dateTime ;
+            prov:entity data:d11c343ec6f5903759f187c2f0da2b4a43ee781f ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal/nucleotides> ],
+        [ a prov:Usage ;
+            prov:atTime "2018-04-04T22:36:39.031581"^^xsd:dateTime ;
+            prov:entity <urn:hash::sha1:945e5c115e66772d0187b8e18b9083c2b6521c77> ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/pal2nal/protein_alignment> ] ;
+    prov:wasAssociatedWith run:f68e5452-c817-473d-b36b-3b6e31307875 .
+
+run:f68e5452-c817-473d-b36b-3b6e31307875 a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Container execution of image ubuntu-test"^^xsd:string ;
+    cwlprov:image "ubuntu-test"^^xsd:string .
+
+<urn:uuid:22c34348-f4e4-4563-9d4f-95eb67bd4a46> a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/clustal"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal> ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-04T22:36:38.632187"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-04T22:36:35.616098"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:atTime "2018-04-04T22:36:36.454528"^^xsd:dateTime ;
+            prov:entity <urn:hash::sha1:536e1785e59c0b8612b2f744321489a8e7fb00be> ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal/multi_sequence> ] ;
+    prov:wasAssociatedWith <urn:uuid:3b6e4a5b-5405-4ef5-b913-7a65f24d1f02> .
+
+<urn:uuid:2630800f-579c-4445-8378-83e239061b5a> a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/clustal_3"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal_3> ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-05T06:01:41.977885"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-05T06:01:35.941208"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:atTime "2018-04-05T06:01:37.259025"^^xsd:dateTime ;
+            prov:entity data:f650cc2571ee262d625d2e6c8ec91ec9880fe61b ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal_3/multi_sequence> ] ;
+    prov:wasAssociatedWith <urn:uuid:59bc8ade-3841-4cce-bc73-4f57dbfc934b> .
+
+run:e424c9cb-7550-4ec4-b06c-c913c278beb9 a wfprov:ProcessRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main/clustal_2"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal_2> ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-05T04:31:32.928500"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-05T04:31:29.456137"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> ] ;
+    prov:qualifiedUsage [ a prov:Usage ;
+            prov:atTime "2018-04-05T04:31:30.387858"^^xsd:dateTime ;
+            prov:entity <urn:hash::sha1:13babc41aa2530d0a5e5ec69809c8137198d167c> ;
+            prov:hadRole <arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/workflow/packed.cwl#main/clustal_2/multi_sequence> ] ;
+    prov:wasAssociatedWith run:ab0493da-87e0-4d0b-90fe-48509fa13d41 .
+
+<urn:uuid:36dd58bb-b50f-4774-9fbe-aeffc7234ae6> a wfprov:WorkflowEngine,
+        prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "cwltool 1.0.20180404035408"^^xsd:string .
+
+<urn:uuid:66b766de-b56a-49de-9246-8a8c3ba1d0a2> a wfprov:WorkflowRun,
+        prov:Activity ;
+    rdfs:label "Run of workflow/packed.cwl#main"^^xsd:string ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:hadPlan wf:main ] ;
+    prov:qualifiedEnd [ a prov:End ;
+            prov:atTime "2018-04-05T06:22:36.098590"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:36dd58bb-b50f-4774-9fbe-aeffc7234ae6> ] ;
+    prov:qualifiedStart [ a prov:Start ;
+            prov:atTime "2018-04-04T22:36:35.558583"^^xsd:dateTime ;
+            prov:hadActivity <urn:uuid:36dd58bb-b50f-4774-9fbe-aeffc7234ae6> ] ;
+    prov:startedAtTime "2018-04-04T22:36:35.558423"^^xsd:dateTime ;
+    prov:wasAssociatedWith <urn:uuid:36dd58bb-b50f-4774-9fbe-aeffc7234ae6> .
+

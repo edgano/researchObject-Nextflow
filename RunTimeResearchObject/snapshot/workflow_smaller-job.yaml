@@ -1,0 +1,17 @@
+#!/usr/bin/env cwl-runner
+# created by the following command
+# (echo 'proteins:'; for entry in $(ls ../data/*/aa.fa); do echo '  - { path:
+# '${entry}', class: File }'; done; echo 'nucleotides:'; for entry in $(ls
+# ../data/*/nt.fa); do echo '  - { path: '${entry}', class: File }'; done) >
+# workflow_simple-job.yaml
+#
+# Or use workflow.cwl as a simpler approach
+cwl:tool: workflow_simple.cwl
+proteins:
+  - { path: ../data/cluster00001/aa.fa, class: File }
+  - { path: ../data/cluster00002/aa.fa, class: File }
+  - { path: ../data/cluster00003/aa.fa, class: File }
+nucleotides:
+  - { path: ../data/cluster00001/nt.fa, class: File }
+  - { path: ../data/cluster00002/nt.fa, class: File }
+  - { path: ../data/cluster00003/nt.fa, class: File }

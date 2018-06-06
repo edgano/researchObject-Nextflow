@@ -1,0 +1,60 @@
+{
+    "nucleotides": [
+        {
+            "class": "File", 
+            "location": "../data/d1/d11c343ec6f5903759f187c2f0da2b4a43ee781f", 
+            "size": 59180, 
+            "basename": "nt.fa", 
+            "nameroot": "nt", 
+            "nameext": ".fa", 
+            "checksum": "sha1$d11c343ec6f5903759f187c2f0da2b4a43ee781f"
+        }, 
+        {
+            "class": "File", 
+            "location": "../data/9f/9fd4675cf87d172a85ca12e6d089de1474f86cf8", 
+            "size": 45094, 
+            "basename": "nt.fa", 
+            "nameroot": "nt", 
+            "nameext": ".fa", 
+            "checksum": "sha1$9fd4675cf87d172a85ca12e6d089de1474f86cf8"
+        }, 
+        {
+            "class": "File", 
+            "location": "../data/ab/abf9e9baa77c12775dd92352a8aa1ef3c52613f6", 
+            "size": 22780, 
+            "basename": "nt.fa", 
+            "nameroot": "nt", 
+            "nameext": ".fa", 
+            "checksum": "sha1$abf9e9baa77c12775dd92352a8aa1ef3c52613f6"
+        }
+    ], 
+    "proteins": [
+        {
+            "class": "File", 
+            "location": "../data/53/536e1785e59c0b8612b2f744321489a8e7fb00be", 
+            "size": 23722, 
+            "basename": "aa.fa", 
+            "nameroot": "aa", 
+            "nameext": ".fa", 
+            "checksum": "sha1$536e1785e59c0b8612b2f744321489a8e7fb00be"
+        }, 
+        {
+            "class": "File", 
+            "location": "../data/13/13babc41aa2530d0a5e5ec69809c8137198d167c", 
+            "size": 17568, 
+            "basename": "aa.fa", 
+            "nameroot": "aa", 
+            "nameext": ".fa", 
+            "checksum": "sha1$13babc41aa2530d0a5e5ec69809c8137198d167c"
+        }, 
+        {
+            "class": "File", 
+            "location": "../data/f6/f650cc2571ee262d625d2e6c8ec91ec9880fe61b", 
+            "size": 9572, 
+            "basename": "aa.fa", 
+            "nameroot": "aa", 
+            "nameext": ".fa", 
+            "checksum": "sha1$f650cc2571ee262d625d2e6c8ec91ec9880fe61b"
+        }
+    ]
+}
