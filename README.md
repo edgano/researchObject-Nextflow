@@ -14,7 +14,7 @@ After identify the elements and the interactions, it will be a fisrt approach fo
 
 XML: https://drive.google.com/file/d/1EMhjxsD18PdyhmtK1ZxLg_8wZ1z3sWEe/view?usp=sharing
 
-## Files Structure
+~~ ## Files Structure
 We believe the folder/file structure has to look like this:
 
 ![File Structure](https://github.com/edgano/researchObject-Nextflow/blob/master/images/fileStructure.png)
@@ -32,6 +32,66 @@ Being the content of the files as follow:
     * nextflow.config
   * mimetype
   * visualitation.png -> pipeline graph
+
+## File structure V2
+Trying to define the correct structure of the RO, I have this new version of the files tree and the content of them
+![Structure v2](https://files.gitter.im/privateEdgano/Lobby/7bNX/image.png)
+
+manifest.json
+```
+{ "@id": "/",
+  "@context": ["https://w3id.org/bundle/context"],
+ "author": "authorFoo"
+ "description": "manifest description foo"
+ "date": <DATE of creation>
+  "aggregates": [
+    "/paper.pdf",
+    "githubID/data",
+    "githubID/bin",
+   "github/main.nf"
+  ]
+}
+```
+metadata.xml
+```
+{ "@id": "/",
+  "@context": ["https://w3id.org/bundle/context"],
+ "container_sha": ""
+"container_name":""
+"commandLine":""
+"nextflow_version":""
+}
+```
+provenance.json
+```
+{
+  "wasGeneratedBy": {
+    "NF:generatedBy_1_/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2": {
+      "prov:entity": "NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2",
+      "prov:role": {
+        "$": "",
+        "type": "xsd:string"
+      },
+      "prov:activity": "NF:activity_1"
+    },
+...
+"activity": {
+    "NF:activity_1": {
+      "prov:type": {
+        "$": "ActivityType",
+        "type": "NF:process"
+      },
+      "prov:label": "buildIndex (ggal_1_48850000_49020000.Ggal71.500bpflank)"
+    },
+...
+```
+log.txt
+```
+<DATE> -- author -- <image SHA>
+<DATE> -- author -- <image SHA>
+<DATE> -- author -- <image SHA>
+...
+```
 
 ## Input/Output code
 The structure of the I/O is the following:
