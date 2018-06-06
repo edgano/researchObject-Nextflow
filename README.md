@@ -35,7 +35,9 @@ Being the content of the files as follow:
 
 ## File structure V2
 Trying to define the correct structure of the RO, I have this new version of the files tree and the content of them
-![Structure v2](https://files.gitter.im/privateEdgano/Lobby/7bNX/image.png)
+![Structure v2](https://files.gitter.im/privateEdgano/Lobby/LRY8/thumb/image.png)
+
+The files inside the orange square are the nextflow directory. ```main.nf``` is the main scrip file and the ```nextflow.config``` is the configuration file for the pipeline. Then the ```bin``` folder is an example of an optional/extra files.
 
 manifest.json
 ```
