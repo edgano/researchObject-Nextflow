@@ -14,7 +14,7 @@ After identify the elements and the interactions, it will be a fisrt approach fo
 
 XML: https://drive.google.com/file/d/1EMhjxsD18PdyhmtK1ZxLg_8wZ1z3sWEe/view?usp=sharing
 
-~~ ## Files Structure
+## Files Structure
 We believe the folder/file structure has to look like this:
 
 ![File Structure](https://github.com/edgano/researchObject-Nextflow/blob/master/images/fileStructure.png)
