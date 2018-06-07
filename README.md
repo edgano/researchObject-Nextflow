@@ -50,7 +50,7 @@ manifest.json
     "/paper.pdf",
     "githubID/data",
     "githubID/bin",
-   "github/main.nf"
+    "github/main.nf"
   ]
 }
 ```
@@ -58,10 +58,12 @@ metadata.xml
 ```
 { "@id": "/",
   "@context": ["https://w3id.org/bundle/context"],
- "container_sha": ""
-"container_name":""
-"commandLine":""
-"nextflow_version":""
+  "container_technology": "Docker"  //Docker/Singularity/Not container used
+  "container_sha": "f7a60a2f83b7e98db6f45034c94541901e270cafdc8e1f9ae4cd5a2b7edd039c"   //<SHA256>/Not container used
+  "container_name":"nextflow/rnatoy@sha256:9ac0345b5851b2b20913cb4e6d469df77cf1232bafcadf8fd929535614a85c75"  //<container_name>/Not container used
+  "UUID": "2961a607-7a96-43ae-82c6-27eb0892fd1d"   //nextflow execution UUID
+  "commandLine":"run nextflow-io/rnatoy -with-docker -with-trace -with-prov -resume"
+  "nextflow_version":"0.29.0.5367"
 }
 ```
 provenance.json
@@ -89,9 +91,8 @@ provenance.json
 ```
 log.txt
 ```
-<DATE> -- author -- <image SHA>
-<DATE> -- author -- <image SHA>
-<DATE> -- author -- <image SHA>
+<DATE> -- author -- --<UUID> -- <image SHA>
+06/07/2018 15:03:07 -- AuthorFoo -- 2961a607-7a96-43ae-82c6-27eb0892fd1d --f7a60a2f83b7e98db6f45034c94541901e270cafdc8e1f9ae4cd5a2b7edd039c
 ...
 ```
 
