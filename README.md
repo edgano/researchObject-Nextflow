@@ -192,6 +192,47 @@ Then we can see how _activity_1_ has consumed the entity(file) ```NF:/home/edgar
 ## Next Steps
 Next steps will be to start saving the file with the structure we have defined before, ~~generate the sha for the files. Then we will clean the code and use ```Enum``` for the PROV-Types.~~
 
+## RO Bundle
+[Tutorial](https://github.com/ResearchObject/ro-tutorials/tree/master/01-creating)
+
+To generate the RO bundle we need to create first the mimetype for the RO
+```
+echo -n application/vnd.wf4ever.robundle+zip > mimetype
+zip -0 -X example.bundle.zip mimetype
+```
+Then, we will add the files to the zip bundle using the following command:
+```
+zip example.bundle.zip rawdata5.csv paper3.pdf analyse2.py .ro/manifest.json
+```
+For the manifest, it will looks like:
+```
+{
+    "@context": [
+        {
+            "@base": "arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/metadata/"
+        }, 
+        "https://w3id.org/bundle/context"
+    ], 
+    "id": "/", 
+    "manifest": "manifest.json", 
+    "createdOn": "2018-04-05T06:22:36.552110", 
+    "createdBy": {
+        "uri": "urn:uuid:36dd58bb-b50f-4774-9fbe-aeffc7234ae6", 
+        "name": "cwltool 1.0.20180404035408"
+    }, 
+    "aggregates": [
+        {
+            "uri": "urn:hash::sha1:f650cc2571ee262d625d2e6c8ec91ec9880fe61b", 
+            "bundledAs": {
+                "folder": "/data/f6/", 
+                "uri": "arcp://uuid,66b766de-b56a-49de-9246-8a8c3ba1d0a2/data/f6/f650cc2571ee262d625d2e6c8ec91ec9880fe61b", 
+                "filename": "f650cc2571ee262d625d2e6c8ec91ec9880fe61b"
+            }
+        }, ...
+```
+**QUESTION:** Do we need to list **ALL** the files? 
+
+
 After that, we will move to the next milestone, capture author information, container hash, ...
 
 To implement the PROV into NF, we are using Prov-DM and [ProvToolBox](http://lucmoreau.github.io/ProvToolbox/)
