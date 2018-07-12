@@ -37,6 +37,10 @@ Being the content of the files as follow:
 Trying to define the correct structure of the RO, I have this new version of the files tree and the content of them
 ![Structure v2](https://files.gitter.im/privateEdgano/Lobby/LRY8/thumb/image.png)
 
+## File structure V2.1
+After the BOSC 2018 in Portal, and thanks to some CWL&RO posters. We decide to move to a similar structure. Avoiding big differences between RO zip files between CWL and Nextflow.
+![Structure v2.1](https://files.gitter.im/privateEdgano/Lobby/NnQB/image.png)
+
 The files inside the orange square are the nextflow directory. ```main.nf``` is the main scrip file and the ```nextflow.config``` is the configuration file for the pipeline. Then the ```bin``` folder is an example of an optional/extra files.
 
 manifest.json
@@ -186,11 +190,14 @@ Full version of the file can be found here: https://github.com/edgano/researchOb
 Meaning that the entity(file) ```NF:/home/edgar/CBCRG/nextflow/work/2e/2969be0f03561e68e4ce0c13d689f0/genome.index.1.bt2``` was created by the activity ```NF:activity_1```, and we knwo that it is the process ```buildIndex (ggal_1_48850000_49020000.Ggal71.500bpflank)```.
 Then we can see how _activity_1_ has consumed the entity(file) ```NF:/home/edgar/.nextflow/assets/nextflow-io/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa```
 
-### TODO Activity Object
-~~convert time (start/End) to include in ```getStartTime()``` and ```getEndTime()```~~
 
 ## Next Steps
-Next steps will be to start saving the file with the structure we have defined before, ~~generate the sha for the files. Then we will clean the code and use ```Enum``` for the PROV-Types.~~
+~~Next steps will be to start saving the file with the structure we have defined before~~
+~~generate the sha for the files. Then we will clean the code and use ```Enum``` for the PROV-Types.~~
+Refactor code to make it as a tool
+
+Implement Agent with container's info
+
 
 ## RO Bundle
 [Tutorial](https://github.com/ResearchObject/ro-tutorials/tree/master/01-creating)
@@ -230,7 +237,7 @@ For the manifest, it will looks like:
             }
         }, ...
 ```
-**QUESTION:** Do we need to list **ALL** the files? 
+**QUESTION:** Do we need to list **ALL** the files? --> The same Bundle capture them
 
 
 After that, we will move to the next milestone, capture author information, container hash, ...
@@ -242,7 +249,13 @@ To implement the PROV into NF, we are using Prov-DM and [ProvToolBox](http://luc
 - [x] Files Structure Moockup
 - [x] Identify elements (Activity/Entity)
 - [x] Input/Output NF 
-- [ ] Get critical data -> author, container hash -- **under development**
+- [x] Get critical data -> author, container hash 
 - [ ] Get container's software version
-- [ ] Automatic relation identification
-- [ ] Generate RO Object
+- [x] Automatic relation identification
+- [x] Generate RO Object
+- [ ] Refactor code to implement as a tool -- **under development**
+- [ ] Implement AGENT object (to save container's info)
+- [ ] Generate Snapshot content -> reRun.sh (relative path??)
+- [ ] Find a way to KNOW the final output folder -- **HELP NEEDED**
+- [ ] Find a way to KNOW the software version -> include a auxFile written by the user? -- **HELP NEEDED**
+- [ ] Test and Documentation
